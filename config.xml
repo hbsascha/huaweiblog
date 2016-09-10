@@ -12,6 +12,8 @@
    <author href = "http://www.huaweiblog.de" email = "webmaster@huaweiblog.de">
       Huaweiblog.de
    </author>
+
+   <plugin name="org.crosswalk.engine" spec="1.3.0" source="pgb" />
    
    <preference name = "permissions" value = "none"/>
    
