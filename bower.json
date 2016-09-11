@@ -1,38 +1,36 @@
 {
-  "name": "ionic-material",
-  "version": "0.4.2",
+  "name": "ToDo",
+  "version": "0.0.0",
   "authors": [
-    "Rai Butera",
-    "Zach Fitzgerald"
+    "Kevin Gleason <kaagleason@gmail.com>"
   ],
-  "description": "Ionic Material - Material Design for the Ionic Framework",
-  "main": [
-    "dist/ionic.material.css",
-    "dist/ionic.material.js"
-  ],
+  "description": "A ToDo List using PubNub and Polymer",
+  "main": "index.html",
   "keywords": [
-    "Ionic",
-    "Material",
-    "Design",
-    "AngularJS",
-    "Framework",
-    "Hybrid",
-    "Apps",
-    "Mobile"
+    "Polymer",
+    "PubNub",
+    "Todo",
+    "List"
   ],
   "license": "MIT",
-  "homepage": "http://ionicmaterial.com",
-  "private": false,
+  "homepage": "http://kevingleason.me/Todo/index.html",
   "ignore": [
+    "**/.*",
+    "node_modules",
     "bower_components",
-    "demo",
-    "docs",
-    "Gulpfile.js",
-    "index.html",
-    "node_modules"
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "ionic": "~1.0.0",
-    "waves": "0.6"
+    "polymer": "Polymer/polymer#^1.0.0",
+    "pubnub-element": "~4.0.0",
+    "iron-input": "polymerelements/iron-input#^1.0.0",
+    "paper-checkbox": "polymerelements/paper-checkbox#^1.0.1",
+    "paper-input": "polymerelements/paper-input#~1.0.5",
+    "paper-drawer-panel": "polymerelements/paper-drawer-panel#~1.0.2",
+    "paper-button": "polymerelements/paper-button#~1.0.2",
+    "paper-fab": "polymerelements/paper-fab#~1.0.2",
+    "paper-menu": "polymerelements/paper-menu#~1.0.0",
+    "iron-icons": "polymerelements/iron-icons#~1.0.3"
   }
 }
