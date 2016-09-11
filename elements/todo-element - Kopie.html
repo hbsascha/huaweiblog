@@ -69,9 +69,9 @@
     <!-- local DOM for your element -->
 	
     <paper-material class="todo" elevation="1">
-	    <!--<paper-checkbox checked="{{completed}}"></paper-checkbox>
+	    <paper-checkbox checked="{{completed}}"></paper-checkbox>
 	    <paper-fab hidden={{editing}}  icon="icons:create" on-tap="doEdit" class="edit" mini></paper-fab>
-	    <paper-fab hidden={{!editing}} icon="icons:done"   on-tap="doEdit" class="done" mini></paper-fab>-->
+	    <paper-fab hidden={{!editing}} icon="icons:done"   on-tap="doEdit" class="done" mini></paper-fab>
 	    <paper-item hidden="{{editing}}" id="task">{{task}}</paper-item>
 	    <paper-input id="edit" hidden="{{!editing}}" value="{{task}}"></paper-input>
 	    <paper-item class="info">Created by: <span>{{ user }}</span></paper-item>
